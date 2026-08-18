@@ -1,0 +1,121 @@
+{
+  "command_name": "sauroneye",
+  "help": "Search directories for files containing specific keywords (SauronEye BOF)",
+  "extension_author": "Adaptix-Framework",
+  "original_author": "Adaptix-Framework",
+  "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
+  "version": "1.0.0",
+  "entrypoint": "go",
+  "files": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "sauroneye.x64.o"
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "path": "sauroneye.x86.o"
+    }
+  ],
+  "arguments": [
+    {
+      "name": "cmdline",
+      "desc": "Full command line (for internal parsing)",
+      "type": "z",
+      "optional": true,
+      "default": ""
+    },
+    {
+      "name": "directories",
+      "desc": "Comma-separated directories to search",
+      "type": "z",
+      "optional": true,
+      "default": "C:\\"
+    },
+    {
+      "name": "filetypes",
+      "desc": "File extensions to search",
+      "type": "z",
+      "optional": true,
+      "default": ".txt,.docx"
+    },
+    {
+      "name": "keywords",
+      "desc": "Keywords (supports wildcards *)",
+      "type": "z",
+      "optional": true,
+      "default": ""
+    },
+    {
+      "name": "search_contents",
+      "desc": "Search file contents (1=yes)",
+      "type": "i",
+      "optional": true,
+      "default": 0
+    },
+    {
+      "name": "max_filesize",
+      "desc": "Max file size in KB",
+      "type": "i",
+      "optional": true,
+      "default": 1024
+    },
+    {
+      "name": "system_dirs",
+      "desc": "Include system directories (1=yes)",
+      "type": "i",
+      "optional": true,
+      "default": 0
+    },
+    {
+      "name": "before_date",
+      "desc": "Before date (dd.MM.yyyy)",
+      "type": "z",
+      "optional": true,
+      "default": ""
+    },
+    {
+      "name": "after_date",
+      "desc": "After date (dd.MM.yyyy)",
+      "type": "z",
+      "optional": true,
+      "default": ""
+    },
+    {
+      "name": "check_macro",
+      "desc": "Check VBA macros (1=yes)",
+      "type": "i",
+      "optional": true,
+      "default": 0
+    },
+    {
+      "name": "show_date",
+      "desc": "Show file dates (1=yes)",
+      "type": "i",
+      "optional": true,
+      "default": 0
+    },
+    {
+      "name": "wildcard_attempts",
+      "desc": "Max wildcard matching attempts",
+      "type": "i",
+      "optional": true,
+      "default": 1000
+    },
+    {
+      "name": "wildcard_size",
+      "desc": "Max wildcard search area KB",
+      "type": "i",
+      "optional": true,
+      "default": 200
+    },
+    {
+      "name": "wildcard_backtrack",
+      "desc": "Max backtracking operations",
+      "type": "i",
+      "optional": true,
+      "default": 1000
+    }
+  ]
+}

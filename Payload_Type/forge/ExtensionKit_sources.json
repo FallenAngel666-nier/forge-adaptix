@@ -1,0 +1,506 @@
+[
+	{
+		"name": "arp",
+		"command_name": "arp",
+		"description": "List ARP table",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "cacls",
+		"command_name": "cacls",
+		"description": "List user permissions for the specified file or directory, wildcards supported",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-dir",
+		"command_name": "ek-dir",
+		"description": "Lists files in a specified directory. Supports wildcards and optional recursive listing",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-env",
+		"command_name": "ek-env",
+		"description": "List process environment variables",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-ipconfig",
+		"command_name": "ek-ipconfig",
+		"description": "List IPv4 address, hostname, and DNS server",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "listdns",
+		"command_name": "listdns",
+		"description": "List DNS cache entries. Attempt to query and resolve each",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-netstat",
+		"command_name": "ek-netstat",
+		"description": "Executes the netstat command to display network connections",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-nslookup",
+		"command_name": "ek-nslookup",
+		"description": "Make a DNS query",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "routeprint",
+		"command_name": "routeprint",
+		"description": "List IPv4 routes",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-uptime",
+		"command_name": "ek-uptime",
+		"description": "List system boot time and how long it has been running",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "useridletime",
+		"command_name": "useridletime",
+		"description": "Shows how long the user has been idle",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-whoami",
+		"command_name": "ek-whoami",
+		"description": "List whoami /all",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "alwayselevated",
+		"command_name": "alwayselevated",
+		"description": "Checks if Always Install Elevated is enabled using the registry",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "hijackablepath",
+		"command_name": "hijackablepath",
+		"description": "Checks the path environment variable for writable directories that can be exploited",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "tokenpriv",
+		"command_name": "tokenpriv",
+		"description": "Lists the current token privileges and highlights known vulnerable ones",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "unattendfiles",
+		"command_name": "unattendfiles",
+		"description": "Checks for leftover unattend files that might contain sensitive information",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "unquotedsvc",
+		"command_name": "unquotedsvc",
+		"description": "Checks for unquoted service paths",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "vulndrivers",
+		"command_name": "vulndrivers",
+		"description": "Checks if any service uses a known vulnerable driver (loldrivers.io)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-autologon",
+		"command_name": "ek-autologon",
+		"description": "Checks for stored Autologon credentials in Winlogon registry key",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-credmanager",
+		"command_name": "ek-credmanager",
+		"description": "Enumerates credentials stored in Windows Credential Manager",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "modautorun",
+		"command_name": "modautorun",
+		"description": "Checks for modifiable autorun executables in Run/RunOnce registry keys",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "modsvc",
+		"command_name": "modsvc",
+		"description": "Checks for services with modifiable permissions (DACL)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "pshistory",
+		"command_name": "pshistory",
+		"description": "Checks for PowerShell PSReadLine history file",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "uacstatus",
+		"command_name": "uacstatus",
+		"description": "Checks UAC status, integrity level, and local administrator group membership",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "privcheck_all",
+		"command_name": "privcheck_all",
+		"description": "Run all privilege escalation checks sequentially",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "smartscan",
+		"command_name": "smartscan",
+		"description": "Smart port scan",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "taskhound",
+		"command_name": "taskhound",
+		"description": "Collect scheduled tasks from remote systems",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "quser",
+		"command_name": "quser",
+		"description": "Query user sessions on a remote machine",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "nbtscan",
+		"command_name": "nbtscan",
+		"description": "NetBIOS name scanner (nbtscan-like)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "getsystem_token",
+		"command_name": "getsystem_token",
+		"description": "Elevate to SYSTEM via token impersonation",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "uac_sspi",
+		"command_name": "uac_sspi",
+		"description": "UAC bypass via SSPI Datagram Contexts - forges a token from fake network auth",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "uac_regshellcmd",
+		"command_name": "uac_regshellcmd",
+		"description": "UAC bypass via ms-settings Shell Open command registry key",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "DCOMPotato",
+		"command_name": "DCOMPotato",
+		"description": "DCOMPotato - get SYSTEM via SeImpersonate privileges",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "printspoofer",
+		"command_name": "printspoofer",
+		"description": "LPE via Print Spooler (Named Pipe Impersonation)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "askcreds",
+		"command_name": "askcreds",
+		"description": "Prompt for credentials via Windows UI",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "cookie-monster",
+		"command_name": "cookie-monster",
+		"description": "Locate and copy cookie files for Edge/Chrome/Firefox",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "get-netntlm",
+		"command_name": "get-netntlm",
+		"description": "Retrieve NetNTLM hash for the current user (Internal Monologue)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-hashdump",
+		"command_name": "ek-hashdump",
+		"description": "Dump SAM hashes",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "lsadump_secrets",
+		"command_name": "lsadump_secrets",
+		"description": "Dump LSA secrets from SECURITY hive (requires SYSTEM)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "lsadump_sam",
+		"command_name": "lsadump_sam",
+		"description": "Dump SAM hashes via registry (requires admin)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "lsadump_cache",
+		"command_name": "lsadump_cache",
+		"description": "Dump cached domain credentials (DCC2/MSCacheV2, requires SYSTEM)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "nanodump",
+		"command_name": "nanodump",
+		"description": "Use syscalls to dump LSASS",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "underlaycopy",
+		"command_name": "underlaycopy",
+		"description": "Copy file using low-level NTFS access (MFT or Metadata mode)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-execute-assembly",
+		"command_name": "ek-execute-assembly",
+		"description": "Perform in-process .NET assembly execution",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "noconsolation",
+		"command_name": "noconsolation",
+		"description": "Run unmanaged EXE/DLL inside agent memory",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "inject-cfg",
+		"command_name": "inject-cfg",
+		"description": "Inject shellcode via CFG overwrite (combase.dll __guard_check_icall_fptr)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "inject-sec",
+		"command_name": "inject-sec",
+		"description": "Inject shellcode via section mapping",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "inject-poolparty",
+		"command_name": "inject-poolparty",
+		"description": "Inject shellcode via Pool Party technique",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "inject-32to64",
+		"command_name": "inject-32to64",
+		"description": "Inject x64 shellcode from WOW64 (32-bit) into native 64-bit process",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-psexec",
+		"command_name": "ek-psexec",
+		"description": "Spawn a session on a remote target via PsExec",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-scshell",
+		"command_name": "ek-scshell",
+		"description": "Spawn a session on a remote target via SCShell",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-winrm",
+		"command_name": "ek-winrm",
+		"description": "Use WinRM to execute commands on other systems",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "token_make",
+		"command_name": "token_make",
+		"description": "Creates an impersonated token from given credentials",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "token_steal",
+		"command_name": "token_steal",
+		"description": "Steal access token from a process",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "runas-user",
+		"command_name": "runas-user",
+		"description": "Run a command as another user using explicit credentials",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "runas-session",
+		"command_name": "runas-session",
+		"description": "Execute binary in another users session via IHxHelpPaneServer COM",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "firewallrule_add",
+		"command_name": "firewallrule_add",
+		"description": "Add a new inbound or outbound firewall rule using COM",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "screenshot_bof",
+		"command_name": "screenshot_bof",
+		"description": "Alternative screenshot capability (inline, no fork-n-run)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "sauroneye",
+		"command_name": "sauroneye",
+		"description": "Search directories for files containing specific keywords (SauronEye BOF)",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "findmodule",
+		"command_name": "findmodule",
+		"description": "Identify processes which have a certain module loaded",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "findprochandle",
+		"command_name": "findprochandle",
+		"description": "Identify processes with a specific process handle in use",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "psc",
+		"command_name": "psc",
+		"description": "Shows processes with established TCP and RDP connections",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "procfreeze_freeze",
+		"command_name": "procfreeze_freeze",
+		"description": "Freeze a target process using PPL bypass via WerFaultSecure.exe",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "procfreeze_unfreeze",
+		"command_name": "procfreeze_unfreeze",
+		"description": "Unfreeze a previously frozen process",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "adwssearch",
+		"command_name": "adwssearch",
+		"description": "Executes ADWS query",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "badtakeover",
+		"command_name": "badtakeover",
+		"description": "Account takeover using the BadSuccessor technique",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "dcsync-single",
+		"command_name": "dcsync-single",
+		"description": "Perform DCSync on a single user",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "dcsync-all",
+		"command_name": "dcsync-all",
+		"description": "Perform DCSync for all users in the domain",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "ek-ldapsearch",
+		"command_name": "ek-ldapsearch",
+		"description": "Executes LDAP query",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "readlaps",
+		"command_name": "readlaps",
+		"description": "Read LAPS password for a computer",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "webdav_enable",
+		"command_name": "webdav_enable",
+		"description": "Enable the WebDAV client service without elevated permissions",
+		"repo_url": "",
+		"custom_download_url": ""
+	},
+	{
+		"name": "webdav_status",
+		"command_name": "webdav_status",
+		"description": "Determine if WebDAV is running on a remote system",
+		"repo_url": "",
+		"custom_download_url": ""
+	}
+]
