@@ -1,6 +1,6 @@
 {
   "command_name": "alwayselevated",
-  "help": "Checks if Always Install Elevated is enabled using the registry",
+  "help": "Check Always Install Elevated registry setting",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -1,6 +1,6 @@
 {
   "command_name": "cacls",
-  "help": "List user permissions for the specified file or directory, wildcards supported",
+  "help": "List user permissions for file/directory",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

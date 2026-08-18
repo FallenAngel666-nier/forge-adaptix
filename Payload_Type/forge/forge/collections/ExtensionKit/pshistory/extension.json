@@ -1,6 +1,6 @@
 {
   "command_name": "pshistory",
-  "help": "Checks for PowerShell PSReadLine history file",
+  "help": "Check for PowerShell PSReadLine history file",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

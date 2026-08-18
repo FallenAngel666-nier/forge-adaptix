@@ -1,6 +1,6 @@
 {
   "command_name": "inject-cfg",
-  "help": "Inject shellcode via CFG overwrite (combase.dll __guard_check_icall_fptr)",
+  "help": "Inject shellcode via CFG function pointer overwrite",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -16,7 +16,7 @@
   "arguments": [
     {
       "name": "dc",
-      "desc": "Target domain controller",
+      "desc": "Target DC",
       "type": "z",
       "optional": true,
       "default": ""

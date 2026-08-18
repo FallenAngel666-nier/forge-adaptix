@@ -22,7 +22,7 @@
     },
     {
       "name": "params",
-      "desc": ".NET assembly parameters",
+      "desc": ".NET parameters",
       "type": "z",
       "optional": true,
       "default": ""

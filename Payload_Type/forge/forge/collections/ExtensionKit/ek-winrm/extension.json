@@ -22,27 +22,27 @@
     },
     {
       "name": "cmd",
-      "desc": "Command to execute",
+      "desc": "Command line",
       "type": "Z",
       "optional": false
     },
     {
       "name": "timeout",
-      "desc": "Timeout in ms (0=infinite)",
+      "desc": "Timeout ms",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "background",
-      "desc": "Keep WinRM shell open (1=yes)",
+      "desc": "Keep shell open",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "username",
-      "desc": "Username (DOMAIN\\\\user)",
+      "desc": "Username",
       "type": "Z",
       "optional": true,
       "default": ""

@@ -1,6 +1,6 @@
 {
   "command_name": "modautorun",
-  "help": "Checks for modifiable autorun executables in Run/RunOnce registry keys",
+  "help": "Check for modifiable autorun executables",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

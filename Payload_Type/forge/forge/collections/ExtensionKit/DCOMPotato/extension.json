@@ -27,7 +27,7 @@
     },
     {
       "name": "program",
-      "desc": "Program to run in SYSTEM context (if use_token=0)",
+      "desc": "Program to run",
       "type": "Z",
       "optional": true,
       "default": ""

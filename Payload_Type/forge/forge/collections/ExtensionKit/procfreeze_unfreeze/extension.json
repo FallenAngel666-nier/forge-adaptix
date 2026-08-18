@@ -23,7 +23,7 @@
     },
     {
       "name": "pid",
-      "desc": "Unused (0)",
+      "desc": "Unused",
       "type": "i",
       "optional": true,
       "default": 0

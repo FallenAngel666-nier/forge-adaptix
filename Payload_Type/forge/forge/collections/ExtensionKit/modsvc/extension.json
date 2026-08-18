@@ -1,6 +1,6 @@
 {
   "command_name": "modsvc",
-  "help": "Checks for services with modifiable permissions (DACL)",
+  "help": "Check for services with modifiable permissions (DACL)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

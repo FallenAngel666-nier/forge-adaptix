@@ -1,6 +1,6 @@
 {
   "command_name": "ek-scshell",
-  "help": "Spawn a session on a remote target via SCShell",
+  "help": "Spawn session on remote target via SCShell (fileless)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -27,14 +27,14 @@
     },
     {
       "name": "svc_name",
-      "desc": "Service name to modify",
+      "desc": "Service name",
       "type": "z",
       "optional": true,
       "default": "defragsvc"
     },
     {
       "name": "remote_unc_path",
-      "desc": "Remote UNC path for binary",
+      "desc": "Remote UNC path",
       "type": "z",
       "optional": true,
       "default": ""

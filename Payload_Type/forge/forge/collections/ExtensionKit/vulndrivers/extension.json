@@ -1,6 +1,6 @@
 {
   "command_name": "vulndrivers",
-  "help": "Checks if any service uses a known vulnerable driver (loldrivers.io)",
+  "help": "Check for known vulnerable drivers (loldrivers.io)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

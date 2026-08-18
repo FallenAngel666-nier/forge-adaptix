@@ -21,119 +21,119 @@
   "arguments": [
     {
       "name": "dump_path",
-      "desc": "Path where to write dump file",
+      "desc": "Dump path",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "write_file",
-      "desc": "Write to file (1=yes)",
+      "desc": "Write to file",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "use_valid_sig",
-      "desc": "Use valid signature (1=yes)",
+      "desc": "Valid signature",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "fork",
-      "desc": "Fork target process (1=yes)",
+      "desc": "Fork process",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "snapshot",
-      "desc": "Snapshot process (1=yes)",
+      "desc": "Snapshot process",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "dup",
-      "desc": "Duplicate existing handle (1=yes)",
+      "desc": "Duplicate handle",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "elevate_handle",
-      "desc": "Elevate handle (1=yes)",
+      "desc": "Elevate handle",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "duplicate_elevate",
-      "desc": "Duplicate elevate (1=yes)",
+      "desc": "Duplicate elevate",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "use_seclogon_leak_local",
-      "desc": "Seclogon leak local (1=yes)",
+      "desc": "Seclogon leak local",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "use_seclogon_leak_remote",
-      "desc": "Seclogon leak remote (1=yes)",
+      "desc": "Seclogon leak remote",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "seclogon_leak_remote_binary",
-      "desc": "Seclogon leak remote binary path",
+      "desc": "Remote binary path",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "use_seclogon_duplicate",
-      "desc": "Seclogon duplicate (1=yes)",
+      "desc": "Seclogon duplicate",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "spoof_callstack",
-      "desc": "Spoof callstack (1=yes)",
+      "desc": "Spoof callstack",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "use_silent_process_exit",
-      "desc": "Silent process exit (1=yes)",
+      "desc": "Silent process exit",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "silent_process_exit",
-      "desc": "Silent process exit folder",
+      "desc": "Silent exit folder",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "use_lsass_shtinkering",
-      "desc": "LSASS Shtinkering (1=yes)",
+      "desc": "LSASS Shtinkering",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "get_pid",
-      "desc": "Get PID only (1=yes)",
+      "desc": "Get PID only",
       "type": "i",
       "optional": true,
       "default": 0
@@ -147,7 +147,7 @@
     },
     {
       "name": "chunk_size",
-      "desc": "Chunk size in bytes",
+      "desc": "Chunk size bytes",
       "type": "i",
       "optional": true,
       "default": 921600

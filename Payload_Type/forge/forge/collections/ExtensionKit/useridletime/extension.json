@@ -1,6 +1,6 @@
 {
   "command_name": "useridletime",
-  "help": "Shows how long the user has been idle",
+  "help": "Shows user idle time",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

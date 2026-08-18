@@ -22,14 +22,14 @@
     },
     {
       "name": "type",
-      "desc": "Record type (A, AAAA, ANY)",
+      "desc": "Record type",
       "type": "z",
       "optional": true,
       "default": "A"
     },
     {
       "name": "server",
-      "desc": "DNS server to query",
+      "desc": "DNS server",
       "type": "z",
       "optional": true,
       "default": ""

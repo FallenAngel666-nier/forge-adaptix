@@ -1,6 +1,6 @@
 {
   "command_name": "lsadump_cache",
-  "help": "Dump cached domain credentials (DCC2/MSCacheV2, requires SYSTEM)",
+  "help": "Dump cached domain credentials (DCC2, requires SYSTEM)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -16,27 +16,27 @@
   "arguments": [
     {
       "name": "query",
-      "desc": "ADWS query filter",
+      "desc": "ADWS filter",
       "type": "z",
       "optional": false
     },
     {
       "name": "attributes",
-      "desc": "Comma-separated attributes",
+      "desc": "Attributes",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "dc",
-      "desc": "Target domain controller",
+      "desc": "Target DC",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "dn",
-      "desc": "Custom base DN",
+      "desc": "Base DN",
       "type": "z",
       "optional": true,
       "default": ""

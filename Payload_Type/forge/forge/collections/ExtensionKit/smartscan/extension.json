@@ -34,7 +34,7 @@
     },
     {
       "name": "custom_ports",
-      "desc": "Custom ports (e.g. 80,443,22-25)",
+      "desc": "Custom ports",
       "type": "z",
       "optional": true,
       "default": ""

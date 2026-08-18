@@ -16,7 +16,7 @@
   "arguments": [
     {
       "name": "module",
-      "desc": "Module name (e.g. clr.dll, amsi.dll)",
+      "desc": "Module name",
       "type": "Z",
       "optional": false
     }

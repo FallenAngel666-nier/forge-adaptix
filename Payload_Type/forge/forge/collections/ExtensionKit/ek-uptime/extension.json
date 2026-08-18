@@ -1,6 +1,6 @@
 {
   "command_name": "ek-uptime",
-  "help": "List system boot time and how long it has been running",
+  "help": "System boot time and uptime",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

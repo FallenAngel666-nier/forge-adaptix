@@ -16,48 +16,48 @@
   "arguments": [
     {
       "name": "query",
-      "desc": "LDAP filter query",
+      "desc": "LDAP filter",
       "type": "Z",
       "optional": false
     },
     {
       "name": "attributes",
-      "desc": "Attributes to retrieve",
+      "desc": "Attributes",
       "type": "z",
       "optional": true,
       "default": "*"
     },
     {
       "name": "count",
-      "desc": "Result max size (0=unlimited)",
+      "desc": "Result max size",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "scope",
-      "desc": "Scope: 1=BASE, 2=LEVEL, 3=SUBTREE",
+      "desc": "Scope (1-3)",
       "type": "i",
       "optional": true,
       "default": 3
     },
     {
       "name": "dc",
-      "desc": "DC hostname or IP",
+      "desc": "DC hostname",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "dn",
-      "desc": "LDAP query base DN",
+      "desc": "Base DN",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "ldaps",
-      "desc": "Use LDAPS (1=yes)",
+      "desc": "Use LDAPS",
       "type": "i",
       "optional": true,
       "default": 0

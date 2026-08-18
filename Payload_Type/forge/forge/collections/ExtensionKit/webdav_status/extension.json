@@ -1,6 +1,6 @@
 {
   "command_name": "webdav_status",
-  "help": "Determine if WebDAV is running on a remote system",
+  "help": "Determine if WebDAV is running on remote system",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -16,7 +16,7 @@
   "arguments": [
     {
       "name": "hosts",
-      "desc": "Comma-separated hosts to check",
+      "desc": "Comma-separated hosts",
       "type": "z",
       "optional": true,
       "default": "127.0.0.1"

@@ -1,6 +1,6 @@
 {
   "command_name": "procfreeze_freeze",
-  "help": "Freeze a target process using PPL bypass via WerFaultSecure.exe",
+  "help": "Freeze target process threads via WerFault PPL bypass",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -23,7 +23,7 @@
     },
     {
       "name": "pid",
-      "desc": "Process ID to freeze",
+      "desc": "Process ID",
       "type": "i",
       "optional": false
     }

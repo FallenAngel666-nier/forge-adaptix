@@ -1,6 +1,6 @@
 {
   "command_name": "runas-user",
-  "help": "Run a command as another user using explicit credentials",
+  "help": "Run command as another user using explicit credentials",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -33,13 +33,13 @@
     },
     {
       "name": "domain",
-      "desc": "Domain (use . for local)",
+      "desc": "Domain",
       "type": "Z",
       "optional": false
     },
     {
       "name": "command",
-      "desc": "Command line to execute",
+      "desc": "Command line",
       "type": "Z",
       "optional": false
     },
@@ -52,21 +52,21 @@
     },
     {
       "name": "timeout",
-      "desc": "Timeout in ms (0=default 120000)",
+      "desc": "Timeout ms",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "no_output",
-      "desc": "Without output (1=no output)",
+      "desc": "No output (1=yes)",
       "type": "i",
       "optional": true,
       "default": 1
     },
     {
       "name": "bypass_uac",
-      "desc": "Bypass UAC (1=yes)",
+      "desc": "Bypass UAC",
       "type": "i",
       "optional": true,
       "default": 0

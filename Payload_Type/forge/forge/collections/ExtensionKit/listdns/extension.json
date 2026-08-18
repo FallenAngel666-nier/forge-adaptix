@@ -1,6 +1,6 @@
 {
   "command_name": "listdns",
-  "help": "List DNS cache entries. Attempt to query and resolve each",
+  "help": "List DNS cache entries",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

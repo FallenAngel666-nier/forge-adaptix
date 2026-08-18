@@ -1,6 +1,6 @@
 {
   "command_name": "ek-credmanager",
-  "help": "Enumerates credentials stored in Windows Credential Manager",
+  "help": "Enumerate Windows Credential Manager entries",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

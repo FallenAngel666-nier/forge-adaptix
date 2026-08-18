@@ -1,6 +1,6 @@
 {
   "command_name": "unquotedsvc",
-  "help": "Checks for unquoted service paths",
+  "help": "Check for unquoted service paths",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -1,6 +1,6 @@
 {
   "command_name": "badtakeover",
-  "help": "Account takeover using the BadSuccessor technique",
+  "help": "Account takeover via BadSuccessor technique",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -16,25 +16,25 @@
   "arguments": [
     {
       "name": "ou",
-      "desc": "Target OU to write malicious dMSA",
+      "desc": "Target OU",
       "type": "z",
       "optional": false
     },
     {
       "name": "account",
-      "desc": "Name of the new dMSA to create",
+      "desc": "New dMSA name",
       "type": "z",
       "optional": false
     },
     {
       "name": "sid",
-      "desc": "SID of your current context",
+      "desc": "Current context SID",
       "type": "z",
       "optional": false
     },
     {
       "name": "dn",
-      "desc": "Target user objects DN",
+      "desc": "Target user DN",
       "type": "z",
       "optional": false
     },

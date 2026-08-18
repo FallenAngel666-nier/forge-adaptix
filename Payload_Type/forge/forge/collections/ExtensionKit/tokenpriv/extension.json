@@ -1,6 +1,6 @@
 {
   "command_name": "tokenpriv",
-  "help": "Lists the current token privileges and highlights known vulnerable ones",
+  "help": "List token privileges and vulnerable ones",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

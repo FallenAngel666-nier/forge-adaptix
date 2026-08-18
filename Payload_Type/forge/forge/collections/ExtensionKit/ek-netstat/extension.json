@@ -1,6 +1,6 @@
 {
   "command_name": "ek-netstat",
-  "help": "Executes the netstat command to display network connections",
+  "help": "Display network connections",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -1,6 +1,6 @@
 {
   "command_name": "token_make",
-  "help": "Creates an impersonated token from given credentials",
+  "help": "Create impersonation token from credentials",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -39,7 +39,7 @@
     },
     {
       "name": "type",
-      "desc": "Logon type (2=Interactive, 3=Network, 8=NetworkCleartext, 9=NewCredentials)",
+      "desc": "Logon type",
       "type": "i",
       "optional": false
     }

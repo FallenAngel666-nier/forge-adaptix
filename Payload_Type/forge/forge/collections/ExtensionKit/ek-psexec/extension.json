@@ -1,6 +1,6 @@
 {
   "command_name": "ek-psexec",
-  "help": "Spawn a session on a remote target via PsExec",
+  "help": "Spawn session on remote target via PsExec",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -21,13 +21,13 @@
   "arguments": [
     {
       "name": "target",
-      "desc": "Remote target IP or hostname",
+      "desc": "Remote target IP/hostname",
       "type": "z",
       "optional": false
     },
     {
       "name": "binary",
-      "desc": "Binary file to upload and execute",
+      "desc": "Binary file to upload",
       "type": "b",
       "optional": false
     },
@@ -40,14 +40,14 @@
     },
     {
       "name": "share",
-      "desc": "Share for copying the file",
+      "desc": "Share name",
       "type": "z",
       "optional": true,
       "default": "ADMIN$"
     },
     {
       "name": "svc_path",
-      "desc": "Path to the service file",
+      "desc": "Service path",
       "type": "z",
       "optional": true,
       "default": "C:\\Windows"

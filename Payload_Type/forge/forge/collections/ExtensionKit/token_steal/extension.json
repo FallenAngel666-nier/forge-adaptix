@@ -21,7 +21,7 @@
   "arguments": [
     {
       "name": "pid",
-      "desc": "Process ID to steal token from",
+      "desc": "Process ID",
       "type": "i",
       "optional": false
     }

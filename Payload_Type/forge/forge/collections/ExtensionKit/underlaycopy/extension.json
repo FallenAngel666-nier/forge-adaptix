@@ -1,6 +1,6 @@
 {
   "command_name": "underlaycopy",
-  "help": "Copy file using low-level NTFS access (MFT or Metadata mode)",
+  "help": "Copy file using low-level NTFS access (MFT/Metadata)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -40,7 +40,7 @@
     },
     {
       "name": "download",
-      "desc": "Download to server instead (1=yes)",
+      "desc": "Download instead (1=yes)",
       "type": "i",
       "optional": true,
       "default": 0

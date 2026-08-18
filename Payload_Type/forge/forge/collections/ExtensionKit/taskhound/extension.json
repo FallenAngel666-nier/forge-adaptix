@@ -16,34 +16,34 @@
   "arguments": [
     {
       "name": "target",
-      "desc": "Remote system IP or hostname",
+      "desc": "Remote system IP/hostname",
       "type": "z",
       "optional": false
     },
     {
       "name": "username",
-      "desc": "Username for authentication",
+      "desc": "Username",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "password",
-      "desc": "Password for authentication",
+      "desc": "Password",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "save_directory",
-      "desc": "Directory to save XML files",
+      "desc": "Save directory",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "flags",
-      "desc": "Additional flags (-unsaved-creds, -grab-blobs)",
+      "desc": "Flags",
       "type": "z",
       "optional": true,
       "default": ""

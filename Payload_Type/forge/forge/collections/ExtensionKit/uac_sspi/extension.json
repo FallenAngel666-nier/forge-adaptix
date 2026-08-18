@@ -1,6 +1,6 @@
 {
   "command_name": "uac_sspi",
-  "help": "UAC bypass via SSPI Datagram Contexts - forges a token from fake network auth",
+  "help": "UAC bypass via SSPI Datagram Contexts",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

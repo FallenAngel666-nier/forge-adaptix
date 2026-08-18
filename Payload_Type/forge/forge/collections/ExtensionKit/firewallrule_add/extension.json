@@ -1,6 +1,6 @@
 {
   "command_name": "firewallrule_add",
-  "help": "Add a new inbound or outbound firewall rule using COM",
+  "help": "Add inbound/outbound firewall rule via COM",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -21,7 +21,7 @@
   "arguments": [
     {
       "name": "direction",
-      "desc": "Direction: in or out",
+      "desc": "Direction: in/out",
       "type": "z",
       "optional": true,
       "default": "in"

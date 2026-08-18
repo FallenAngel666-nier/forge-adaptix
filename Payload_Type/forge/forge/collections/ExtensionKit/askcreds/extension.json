@@ -16,21 +16,21 @@
   "arguments": [
     {
       "name": "prompt",
-      "desc": "Dialog title prompt",
+      "desc": "Dialog title",
       "type": "Z",
       "optional": true,
       "default": "Restore Network Connection"
     },
     {
       "name": "note",
-      "desc": "Dialog note text",
+      "desc": "Dialog note",
       "type": "Z",
       "optional": true,
-      "default": "Please verify your Windows user credentials to proceed"
+      "default": "Please verify credentials"
     },
     {
       "name": "wait_time",
-      "desc": "Wait time in seconds",
+      "desc": "Wait time (s)",
       "type": "i",
       "optional": true,
       "default": 30

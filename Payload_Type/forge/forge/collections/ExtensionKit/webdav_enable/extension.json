@@ -1,6 +1,6 @@
 {
   "command_name": "webdav_enable",
-  "help": "Enable the WebDAV client service without elevated permissions",
+  "help": "Enable WebDAV client service unprivileged",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

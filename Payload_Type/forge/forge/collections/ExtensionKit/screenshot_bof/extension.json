@@ -1,6 +1,6 @@
 {
   "command_name": "screenshot_bof",
-  "help": "Alternative screenshot capability (inline, no fork-n-run)",
+  "help": "Inline memory-based screenshot",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -21,14 +21,14 @@
   "arguments": [
     {
       "name": "note",
-      "desc": "Screenshot caption",
+      "desc": "Caption",
       "type": "z",
       "optional": true,
       "default": "ScreenshotBOF"
     },
     {
       "name": "pid",
-      "desc": "PID for window screenshot (0=full screen)",
+      "desc": "Window PID (0=full screen)",
       "type": "i",
       "optional": true,
       "default": 0

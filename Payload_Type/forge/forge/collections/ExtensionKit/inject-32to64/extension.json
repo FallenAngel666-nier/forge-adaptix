@@ -1,6 +1,6 @@
 {
   "command_name": "inject-32to64",
-  "help": "Inject x64 shellcode from WOW64 (32-bit) into native 64-bit process",
+  "help": "Inject x64 shellcode from WOW64 into native 64-bit process",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

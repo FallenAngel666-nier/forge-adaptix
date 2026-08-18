@@ -1,6 +1,6 @@
 {
   "command_name": "hijackablepath",
-  "help": "Checks the path environment variable for writable directories that can be exploited",
+  "help": "Check PATH for writable directories",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

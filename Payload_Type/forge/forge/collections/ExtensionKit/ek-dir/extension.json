@@ -1,6 +1,6 @@
 {
   "command_name": "ek-dir",
-  "help": "Lists files in a specified directory. Supports wildcards and optional recursive listing",
+  "help": "Lists files in directory (wildcards, recursive)",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

@@ -1,6 +1,6 @@
 {
   "command_name": "get-netntlm",
-  "help": "Retrieve NetNTLM hash for the current user (Internal Monologue)",
+  "help": "Retrieve NetNTLM hash for the current user",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",

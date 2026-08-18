@@ -21,14 +21,14 @@
   "arguments": [
     {
       "name": "browser",
-      "desc": "Browser: chrome, msedge, firefox, or all",
+      "desc": "Browser name",
       "type": "z",
       "optional": true,
       "default": ""
     },
     {
       "name": "profile",
-      "desc": "Custom browser profile path",
+      "desc": "Profile path",
       "type": "z",
       "optional": true,
       "default": ""
@@ -42,21 +42,21 @@
     },
     {
       "name": "dump_cookie",
-      "desc": "Dump cookie file (1=yes)",
+      "desc": "Dump cookie (1=yes)",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "dump_password",
-      "desc": "Dump login data file (1=yes)",
+      "desc": "Dump password (1=yes)",
       "type": "i",
       "optional": true,
       "default": 0
     },
     {
       "name": "dump_key",
-      "desc": "Dump encryption key (1=yes)",
+      "desc": "Dump key (1=yes)",
       "type": "i",
       "optional": true,
       "default": 0

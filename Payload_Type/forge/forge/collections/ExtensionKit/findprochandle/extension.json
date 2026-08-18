@@ -1,6 +1,6 @@
 {
   "command_name": "findprochandle",
-  "help": "Identify processes with a specific process handle in use",
+  "help": "Identify processes with a specific process handle",
   "extension_author": "Adaptix-Framework",
   "original_author": "Adaptix-Framework",
   "repo_url": "https://github.com/Adaptix-Framework/Extension-Kit",
@@ -16,7 +16,7 @@
   "arguments": [
     {
       "name": "proc",
-      "desc": "Process name (e.g. lsass.exe)",
+      "desc": "Process name",
       "type": "Z",
       "optional": false
     }
